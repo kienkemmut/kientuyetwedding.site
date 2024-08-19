@@ -1,6 +1,9 @@
 body {
   font-family: "Dosis", sans-serif; }
-
+.custom-border-event {
+  border: 2px solid;
+  border-radius: 8px;
+}
 /* Home Page Style */
 .ww-home-page {
   background: url("../images/home-img.jpg") no-repeat center center;
@@ -18,9 +21,9 @@ body {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     letter-spacing: 2px; }
     .ww-home-page .ww-wedding-announcement .ww-announcement-container {
-      max-width: 600px;
+      max-width: 800px;
       text-align: center;
-      margin-left: 0;
+      margin-top: auto;
       z-index: 999; }
     .ww-home-page .ww-wedding-announcement img {
       max-height: 350px;
