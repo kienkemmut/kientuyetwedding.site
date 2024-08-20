@@ -9,7 +9,7 @@ body {
   background: url("../images/home-img.jpg") no-repeat center center;
   background-size: cover;
   background-position: 70%;
-  height: 100vh;
+  height: 100dvh;
   min-height: 480px;
   max-height: 1080px; }
   .ww-home-page .ww-wedding-announcement {
@@ -34,9 +34,6 @@ body {
           width: auto; } }
     .ww-home-page .ww-wedding-announcement .ww-couple-name {
       font-size: 70px; }
-      @media (max-width: 576px) {
-        .ww-home-page .ww-wedding-announcement .ww-couple-name {
-          font-size: 50px; } }
 
 .ww-home-page:before {
   content: "";
@@ -111,7 +108,8 @@ body {
 .ww-photo-gallery .card-columns .card {
   border: none;
   margin-bottom: 15px;
-  border-radius: none; }
+  border-radius: 0;
+}
 
 @media (max-width: 992px) {
   .ww-photo-gallery .card-columns {
@@ -124,11 +122,6 @@ body {
          column-count: 1; } }
 
 /* RSVP Style */
-.ww-rsvp-detail {
-  background: url("../images/rsvp-img.jpg") no-repeat center center;
-  background-size: cover;
-  min-height: 500px;
-  position: relative; }
   .ww-rsvp-detail .ww-rsvp-form {
     padding-left: 20%; }
     @media (max-width: 768px) {
@@ -183,3 +176,19 @@ body {
 
 .btn-outline-primary:hover {
   color: #fff; }
+@media only screen and (max-width: 768px) {
+  .mobile-mb {
+   margin-bottom: 12px;
+  }
+  .mobile-row {
+    margin: 0 !important;
+  }
+  .ww-home-page .ww-wedding-announcement .ww-couple-name {
+    font-size: 38px;
+  }
+  .ww-home-page {
+    background: url("../images/home-img.jpg") center center;
+    background-size: 120%;
+    background-position: center;
+  }
+}
